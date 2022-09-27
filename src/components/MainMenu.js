@@ -1,3 +1,5 @@
+import Yellow from '../pics/dhl.png';
+
 function MainMenu() {
     return (
         <div className="MainMenu">
@@ -9,7 +11,7 @@ function MainMenu() {
                 <li>Delivery locations</li>
                 <li>Anomalies</li>
             </ol>
-            
+            <img src={Yellow} alt="Yellow" width="170px"></img>
         </div>
     );
 }
