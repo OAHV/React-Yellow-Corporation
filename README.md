@@ -30,8 +30,10 @@ I have so far:
 <li>Parcing JSON assynchroneus with JavaScript
 <li>Using React
 <li>Using React Components
-<li>Understanding that <tbody> is mysterious
+<li>Understanding that &lt;tbody&gt; is mysterious
 </ul>
+
+
 
 
 <h1>The assignment</h1>
@@ -55,20 +57,48 @@ The app MUST be done using ReactJS and support major mobile & desktop browsers/l
 Briefly describe ( or implement partially ) how can this solution be scaled to support multiple countries and languages?
 
 <h4>Important notes</h4>
-
-• Your project MUST have a README file with clear instructions on project setup and how to run/deploy the app
-• README file can also include design considerations and list dependencies
-• Outline testing strategy and approach
-• Keep the project very simple (yet professional)
-• You shouldn’t spend more than 4-5 hours on this exercise
+<ul>
+<li>Your project MUST have a README file with clear instructions on project setup and how to run/deploy the app
+<li>README file can also include design considerations and list dependencies
+<li>Outline testing strategy and approach
+<li>Keep the project very simple (yet professional)
+<li>You shouldn’t spend more than 4-5 hours on this exercise
+</ul>
 
 <h4>Constraints</h4>
-• Use the latest public stable versions of libraries, frameworks or tools
-• Host your project on GitHub or other cloud-based repositories
+
+<ul>
+<li>Use the latest public stable versions of libraries, frameworks or tools
+<li>Host your project on GitHub or other cloud-based repositories
+</ul>
 
 When you complete this exercise, send your solution repository link to HR.
 
-<hr><hr><hr>
+<hr><hr>
+
+<h1>Dependencies</h1>
+
+This project is dependent on:
+<ul>
+<li>React
+<li>all the files in the 'src' directory
+<ul>
+<li>components
+<ul>
+<li>Header.js
+<li>MainMenu.js
+<li>MainContent.js
+<li>Footer.js
+</ul>
+<li>App.js
+<li>App.css
+</ul>
+<li>This URL: https://my.api.mockaroo.com/orders.json?key=e49e6840
+</ul>
+
+
+
+<h1>Project setup</h1>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
