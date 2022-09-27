@@ -1,5 +1,52 @@
 .App {
-  text-align: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.Header, .MainMenu, .MainContent, .Footer {
+  padding: 5px 20px;
+}
+
+.Header {
+  background-color: blue;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+
+.mid {
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  padding: 0px;
+  height: 100%;
+}
+
+.MainMenu {
+  background-color: yellow;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.MainMenu li {
+  padding: 3px 10px;
+}
+
+.MainContent {
+  background-color: green;
+  flex-grow: 3;
+  flex-shrink: 10;
+}
+
+.Footer {
+  background-color: red;
+  width: 100%;
+  position: sticky;
+  left: 0px;
 }
 
 .App-logo {
@@ -36,3 +83,37 @@
     transform: rotate(360deg);
   }
 }
+
+table, th, tr, td {
+  padding: 2px 10px;
+}
+
+/* Flexbox settings ***********************************************/
+tbody {
+  display: flex;
+  flex-flow: row wrap;     /* experiment with column instead of row */
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: top;
+}
+
+/* Rows are 'cards' in flexbox model */
+tr {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: top;
+  flex-flow: row wrap;
+  width: 12em;
+  height:auto ;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5PX 10PX 15px  rgb(0, 56, 0);
+}
+
+td, th {
+  display: block;
+  width: 100%;
+  height: fit-content;
+} 

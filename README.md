@@ -1,4 +1,74 @@
-# Getting Started with Create React App
+# Yellow Corporation
+
+<h1>Package Tracking Viewer</h1>
+
+This is a part of a C# .NET course including HTML, CSS and JavaScript.
+We are now to learn React.
+
+<h2>What I have done</h2>
+
+I have so far:
+<ul>
+<li>Task 1
+<ul>
+<li>Used React
+<li>Used React Components
+<li>Displayed a parcel list
+<li>Made it work for small and large screens
+</ul>
+<li>Task 2
+<ul>
+<li>Parced the JSON file provided
+</ul>
+</ul>
+
+<h2>What I have learned</h2>
+
+<p>I have learned:</p>
+
+<ul>
+<li>Parcing JSON assynchroneus with JavaScript
+<li>Using React
+<li>Using React Components
+<li>Understanding that <tbody> is mysterious
+</ul>
+
+
+<h1>The assignment</h1>
+
+Here is the asignment from the course leader:
+
+<h2>Project Specification</h2>
+
+Duration: 2-3 days
+
+<h3>Task 1 : Mandatory</h3>
+
+Create a simple web app for our customers that displays a list of orders (or parcels) with some details they need to know like order status, ETAs, pickup locations, etc. Feel free to have UI/UX that best fits the use-case.
+
+API Endpoint: https://my.api.mockaroo.com/orders.json?key=e49e6840
+
+The app MUST be done using ReactJS and support major mobile & desktop browsers/layouts.
+
+<h3>Task 2 : Optional</h3>
+
+Briefly describe ( or implement partially ) how can this solution be scaled to support multiple countries and languages?
+
+<h4>Important notes</h4>
+
+• Your project MUST have a README file with clear instructions on project setup and how to run/deploy the app
+• README file can also include design considerations and list dependencies
+• Outline testing strategy and approach
+• Keep the project very simple (yet professional)
+• You shouldn’t spend more than 4-5 hours on this exercise
+
+<h4>Constraints</h4>
+• Use the latest public stable versions of libraries, frameworks or tools
+• Host your project on GitHub or other cloud-based repositories
+
+When you complete this exercise, send your solution repository link to HR.
+
+<hr><hr><hr>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
