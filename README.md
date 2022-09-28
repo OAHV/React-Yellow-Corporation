@@ -5,6 +5,8 @@
 This is a part of a C# .NET course including HTML, CSS and JavaScript.
 We are now to learn React.
 
+By Ole Victor.
+
 <h2>What I have done</h2>
 
 I have so far:
@@ -19,6 +21,8 @@ I have so far:
 <li>Task 2
 <ul>
 <li>Parced the JSON file provided
+<li>Imported a picture to display
+<li>Automatic updates from the internet parcel source reflected on screen (flickering cards)
 </ul>
 </ul>
 
@@ -30,6 +34,7 @@ I have so far:
 <li>Parcing JSON assynchroneus with JavaScript
 <li>Using React
 <li>Using React Components
+<li>Using component state
 <li>Understanding that &lt;tbody&gt; is mysterious
 </ul>
 

@@ -1,0 +1,23 @@
+/* Flexbox settings ***********************************************/
+tbody {
+    display: flex;
+    flex-flow: row wrap;     /* experiment with column instead of row */
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: top;
+  }
+  
+  /* Rows are 'cards' in flexbox model */
+  tr {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: top;
+    flex-flow: row wrap;
+  }
+  
+  td, th {
+    display: block;
+  } 
+  
+  /* By Ole Victor */

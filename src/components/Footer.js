@@ -8,3 +8,5 @@ function Footer() {
 }
 
 export default Footer;
+
+// By Ole Victor

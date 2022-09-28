@@ -4,6 +4,7 @@ function MainMenu() {
     return (
         <div className="MainMenu">
             <h1>Main Menu</h1>
+            <p>(This is a fake menu...)</p>
             <ol>
                 <li>order status</li>
                 <li>ETAs</li>
@@ -17,3 +18,5 @@ function MainMenu() {
 }
 
 export default MainMenu;
+
+// By Ole Victor

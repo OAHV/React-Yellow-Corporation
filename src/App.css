@@ -10,14 +10,17 @@
   padding: 5px 20px;
 }
 
+/* The blue header */
 .Header {
   background-color: blue;
   width: 100%;
   position: sticky;
   top: 0px;
   left: 0px;
+  text-align: center;
 }
 
+/* The mid div for menu and content (left to right) */
 .mid {
   width: 100%;
   display: flex;
@@ -26,84 +29,52 @@
   height: 100%;
 }
 
+/* The yellow menu */
 .MainMenu {
   background-color: yellow;
   flex-grow: 1;
   flex-shrink: 0;
+  height: 800px;
 }
 
 .MainMenu li {
   padding: 3px 10px;
 }
 
+/* The green contents */
 .MainContent {
   background-color: green;
   flex-grow: 3;
   flex-shrink: 10;
 }
 
+/* The red footer */
 .Footer {
   background-color: red;
   width: 100%;
-  position: sticky;
+  position: fixed;
+  bottom: 0px;
   left: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-table, th, tr, td {
+/* Table formating ***************************************/
+table, th, td {
   padding: 2px 10px;
 }
 
-/* Flexbox settings ***********************************************/
-tbody {
-  display: flex;
-  flex-flow: row wrap;     /* experiment with column instead of row */
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: top;
+td, th {
+  width: 100%;
+  height: fit-content;
+} 
+
+/* The black heading of the cards */
+td:nth-child(1), th:nth-child(1) {
+  background-color: black;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
 }
 
-/* Rows are 'cards' in flexbox model */
 tr {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: top;
-  flex-flow: row wrap;
   width: 12em;
   height:auto ;
   margin: 5px;
@@ -112,8 +83,4 @@ tr {
   box-shadow: 5PX 10PX 15px  rgb(0, 56, 0);
 }
 
-td, th {
-  display: block;
-  width: 100%;
-  height: fit-content;
-} 
+/* By Ole Victor */
