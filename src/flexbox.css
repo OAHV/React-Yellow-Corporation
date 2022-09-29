@@ -1,23 +1,25 @@
 /* Flexbox settings ***********************************************/
-tbody {
+
+/* These attributes are used in the "MainContent" class (for card display) */
+.MainContent tbody {
     display: flex;
     flex-flow: row wrap;     /* experiment with column instead of row */
     justify-content: flex-start;
     align-content: flex-start;
     align-items: top;
-  }
+}
+
+/* Rows are 'cards' in flexbox model */
+.MainContent  tr, .MainContent  th {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: top;
+  flex-flow: row wrap;
+}
   
-  /* Rows are 'cards' in flexbox model */
-  tr {
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: top;
-    flex-flow: row wrap;
-  }
+.MainContent  td,.MainContent  th {
+  display: block;
+} 
   
-  td, th {
-    display: block;
-  } 
-  
-  /* By Ole Victor */
+/* By Ole Victor */

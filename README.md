@@ -23,6 +23,11 @@ I have so far:
 <li>Parced the JSON file provided
 <li>Imported a picture to display
 <li>Automatic updates from the internet parcel source reflected on screen (flickering cards)
+<li>Dynamic shifting between displaying cards or a table of parcels
+<li>Passing info downstream by props
+<li>Passing info upstream by call-back functions
+<li>Using states for functionality
+<li>Quite advanced CSS
 </ul>
 </ul>
 
